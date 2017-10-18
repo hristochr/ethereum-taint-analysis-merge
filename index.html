@@ -1,0 +1,60 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Ethereum Taint Analysis Tool</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="css/materialize.min.css">
+        <script src="js/modernizr-2.8.3.min.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="js/materialize.min.js"></script>
+        <script src="js/api.js"></script>
+    </head>
+    <body>
+    <!-- FB-->
+
+    <!-- FB-->
+
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+    <nav>
+        <div class="nav-wrapper  blue darken-4">
+            <a href="#" class="brand-logo">Ethereum tracker</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="export.html">Export</a></li>
+                <li><a href="start.html">← Back</a></li>
+            </ul>
+        </div>
+    </nav>
+        <div class="container center">
+            <h4 class="center">Ethereum Taint Analysis Tool</h4>
+            <div class="input">
+                <form action="graph.html">
+                    <h5>Address:</h5>
+                    <input type="text" name="account" id="address" value="0xb3764761e297d6f121e79c32a65829cd1ddb4d32"><br>
+                    <h5>Depth:</h5>
+                    <input type="text" name="depth" id="depth" value="3"><br>
+                    <h5>Max Out:</h5>
+                    <input type="text" name="maxout" id="maxout" value="10"><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="result">
+                <p id="error"></p>
+                <p class="info">Current release: 0.11</p>
+            </div>
+        </div>
+    </body>
+</html>
