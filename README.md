@@ -2,6 +2,7 @@
 *Release 0.11*
 
 ### How to run:
+- download zip and unpack
 - start *start.html* from the application directory
 
 ### Release notes:
